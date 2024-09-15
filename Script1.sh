@@ -6,5 +6,6 @@ else
 mkdir backup
 mv new_archive.tar.gz backup
 fi
+
 echo "Script1 executed"
 
