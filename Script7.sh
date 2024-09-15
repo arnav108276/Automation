@@ -1,4 +1,5 @@
 #!/bin/bash
+
 threshold=90
 disk_usage=$(df --output=pcent | awk 'NR==2')
 if [ "$disk_usage" -gt "$threshold%" ]; then
