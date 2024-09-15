@@ -12,3 +12,5 @@ restore() {
 ls RECYCLE_BIN
 read -p "Enter the name of the file or folder you want to restore from the recycle bin:" file
 restore "$file"
+
+
