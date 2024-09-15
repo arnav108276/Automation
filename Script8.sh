@@ -26,3 +26,4 @@ while true; do
         echo "Invalid input. Deletion canceled."
     fi
 done
+
